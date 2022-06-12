@@ -268,14 +268,14 @@ a:hover {
     margin-top: 30px;
 }
 
-.row {
+.intro {
     display: flex;
     justify-content: center;
     text-align: center;
 }
 
 #citation_intro{
-    width: 30%;
+    width: 31%;
 }
 
 #citation_intro_portfolio {
