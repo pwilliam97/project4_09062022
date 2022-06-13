@@ -268,6 +268,21 @@ a:hover {
     margin-top: 30px;
 }
 
+.logo {
+    height: 30%;
+    width: 30%;
+}
+
+.logo_navbar{
+    height: 100%;
+    width: 80%;
+}
+
+.logo__navbar_contact{
+    height: 100%;
+    width: 25%;
+}
+
 .intro {
     display: flex;
     justify-content: center;
