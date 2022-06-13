@@ -1,4 +1,8 @@
+html{
+    font-size: 62.5%;
+}
 body {
+    font-size: 1.8rem;
     margin: 0;
     padding: 0;
     background: #FFF;
@@ -320,9 +324,6 @@ a:hover {
     padding-left: 0;
 }
 
-#bloc-1-hero h1 {
-    font-size: 32px;
-}
 
 .navbar {
     margin-bottom: 0;
@@ -332,7 +333,6 @@ a:hover {
 .navbar-brand {
     height: auto;
     padding: 3px 15px;
-    font-size: 25px;
     font-weight: normal;
     font-weight: 600;
     line-height: 44px;
@@ -362,7 +362,6 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -513,11 +512,11 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 40px!important;
 }
 
 .icon-lg {
-    font-size: 60px!important;
+    font-size: 70px!important;
 }
 
 .sm-shadow {
@@ -562,10 +561,6 @@ button {
     margin-top: 6px;
 }
 
-.showScrollTop {
-    font-size: 14px;
-    opacity: 1;
-}
 
 a[data-lightbox] {
     position: relative;
@@ -625,7 +620,6 @@ a[data-lightbox]:hover img {
 
 .close-lightbox {
     color: #FFF;
-    font-size: 30px;
     position: absolute;
     top: 20px;
     right: 20px;
@@ -646,7 +640,6 @@ a[data-lightbox]:hover img {
 
 .next-lightbox,
 .prev-lightbox {
-    font-size: 20px;
     color: rgba(255, 255, 255, .9);
     background: rgba(0, 0, 0, .5);
     transition: all .2s ease-in-out;
@@ -695,27 +688,15 @@ a {
     max-width: 1000px;
 }
 
-.hero-bloc-text {
-    font-size: 38px;
-}
-
-.hero-bloc-text-sub {
-    font-size: 36px;
-}
-
 .statement-bloc-text {
     line-height: 26px;
     font-style: italic;
-    font-size: 20px;
     text-align: center;
     font-weight: lighter;
     max-width: 520px;
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 11px;
-}
 
 .tight-width-whitespace {
     max-width: 600px;
@@ -723,7 +704,6 @@ p {
 }
 
 .h1 {
-    font-size: 20px;
     font-family: "Open Sans";
 }
 
@@ -732,7 +712,6 @@ p {
     color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: 16px;
     font-weight: 700;
 }
 
@@ -742,12 +721,10 @@ p {
 }
 
 h2 {
-    font-size: 22px;
     line-height: 1.4em;
 }
 
 h3 {
-    font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
