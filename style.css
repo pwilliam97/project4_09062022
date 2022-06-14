@@ -137,7 +137,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgb(255, 255, 255);
 }
 
 .d-bloc .a-btn:hover,
@@ -154,7 +154,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: rgb(0, 0, 0);
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -311,6 +311,10 @@ a:hover {
 
 #citation_text{
     width: 30%; 
+}
+
+.col-sm-4{
+    color: white;
 }
 
 .row-no-gutters {
@@ -542,7 +546,7 @@ button {
 }
 
 .form-control {
-    border-color: rgba(0, 0, 0, .1);
+    border-color: black(255, 0, 0, 0.1);
     box-shadow: none;
 }
 
@@ -681,7 +685,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000000!important;
 }
 
 .container {
@@ -727,7 +731,7 @@ h2 {
 h3 {
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: #000000!important;
 }
 
 .med-width-whitespace {
@@ -737,11 +741,11 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #050000!important;
 }
 
 h4 {
-    color: #333333!important;
+    color: #000000!important;
 }
 
 .icons {
@@ -770,7 +774,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(0, 0, 0, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -788,16 +792,25 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #952F00;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color:white!important;
+    filter: brightness(150%);
+}
+
+.liste_color>li>a {
+    color: white!important;
+}
+
+.artiste {
+    color: #512F2F;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #952F00;
+    color: rgb(255, 255, 255)!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -836,10 +849,12 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/agence-la-panthere.webp");
+
 }
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
+    filter: brightness(90%);
 }
 
 @media (max-width: 1024px) {
