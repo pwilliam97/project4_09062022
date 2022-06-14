@@ -588,6 +588,7 @@ a[data-lightbox]:hover::before {
     top: 50%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
+    font-display: swap;
 }
 
 a[data-lightbox]:hover img {
@@ -686,6 +687,7 @@ a {
     font-family: "helvetica";
     font-weight: 400;
     color: #000000!important;
+    font-display: swap;
 }
 
 .container {
@@ -709,6 +711,7 @@ a {
 
 .h1 {
     font-family: "Open Sans";
+    font-display: swap;
 }
 
 .cta-hero {
