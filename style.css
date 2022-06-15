@@ -918,25 +918,45 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
-    .navbar .nav {
-        padding-top: 0;
-        border-top: 1px solid rgba(0, 0, 0, .2);
-        float: none!important;
+
+    .entete{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
-
-    .logo_navbar {
-        width: 30%;
+    .logo_navbar{
+        width: 80%;
     }
 
     #citation_intro {
         width: 45%;
     }
 
-    .navbar.row {
-        margin-left: 0;
-        margin-right: 0;
-        min-height: 0;
+    .atout_group{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .atout {
+        width: 80%;
+    }
+
+    #citation_intro_portfolio{
+        width: 60%;
+    }
+
+    .bloc_photo>a{
+        width: 100%;
+    }
+
+    .portfolio-thumb{
+        height: 50%;
+        width: 50%;
+    }
+
+    .bloc_photo {
+        padding-top: 5%;
     }
 
     .site-navigation {
@@ -946,14 +966,6 @@ h4 {
         -ms-transform: none;
     }
 
-    .nav > li {
-        margin-top: 0;
-        border-bottom: 1px solid rgba(0, 0, 0, .1);
-        background: rgba(0, 0, 0, .05);
-        text-align: left;
-        padding-left: 15px;
-        width: 100%;
-    }
     .nav > li:hover {
         background: rgba(0, 0, 0, .08);
     }
@@ -978,11 +990,10 @@ h4 {
         left: -1px;
         right: -1px;
     }
-    .navbar-collapse {
-        padding: 0;
-        overflow-x: hidden;
-        -webkit-box-shadow: none;
-        box-shadow: none;
+
+    .navbar-nav{
+        display: flex;
+        flex-direction: column;
     }
 
     .nav-invert .navbar-header {
@@ -1002,7 +1013,7 @@ h4 {
     .bloc-lg {
         padding: 40px 0;
     }
-    .bloc-sm,
+
     .bloc-md {
         padding-left: 0;
         padding-right: 0;
@@ -1065,10 +1076,6 @@ h4 {
         text-align: center;
     }
 
-    .btn-atomic-tangerine{
-        width: 30%;
-    }
-
     .contact_form {
         width: 70%;
         padding-top: 5%;
@@ -1078,19 +1085,33 @@ h4 {
         display: flex;
         flex-direction: column;
         align-items: center;
-    }  
-
-    .portfolio-thumb{
-        margin-left: 25%;
-        height: 50%;
-        width: 50%;
-    }
-
-    .bloc_photo {
-        width: 90%;
-    }
+    }   
     
+    .btn_contact{
+        width: 40%;
+    }
 }
 
+@media (max-width: 475px) {
 
+    .logo_navbar {
+        width: 70%;
+    }
+
+    #citation_intro {
+        width: 80%;
+    }
+
+    .black-background{
+        width: 90%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .tc-white{
+        font-size: 130%;
+    }
+
+    
+}
 
