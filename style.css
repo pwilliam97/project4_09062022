@@ -1,6 +1,7 @@
 html{
     font-size: 62.5%;
 }
+
 body {
     font-size: 1.8rem;
     margin: 0;
@@ -22,7 +23,9 @@ a:hover {
     cursor: pointer;
 }
 
-
+.transparent{
+    display: none;
+}
 
 #page-loading-blocs-notifaction {
     position: fixed;
@@ -352,17 +355,11 @@ a:hover {
 }
 
 .navbar-brand {
-    height: auto;
+    height: 70%;
+    width: 30%;
     padding: 3px 15px;
-    font-weight: normal;
     font-weight: 600;
     line-height: 44px;
-}
-
-.navbar-brand img {
-    max-height: 200px;
-    margin: 0 5px 0 0;
-    display: inline;
 }
 
 .nav-center .navbar-brand img {
@@ -383,10 +380,6 @@ a:hover {
     background: transparent;
 }
 
-.navbar-toggle {
-    margin: 10px 10px 0 0;
-    border: 0px;
-}
 
 .navbar-toggle:hover {
     background: transparent!important;
@@ -470,6 +463,10 @@ nav .caret {
     margin-left: -1px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
+}
+
+.collapse.in {
+    display: block;
 }
 
 .dropdown-menu .dropdown span {
@@ -920,14 +917,21 @@ h4 {
         display: flex;
         justify-content: space-between;
         align-items: center;
-    }
-
-    .logo_navbar{
-        width: 80%;
+        flex-direction: row;
     }
 
     #citation_intro {
         width: 45%;
+    }
+
+    .bloc-sm {
+        padding: 3%;
+    }
+
+    .black-background{
+        width: 90%;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .atout_group{
@@ -989,7 +993,7 @@ h4 {
     }
 
     .navbar-nav{
-        display: flex;
+        display: flex;  
         flex-direction: column;
     }
 
@@ -1073,6 +1077,12 @@ h4 {
         text-align: center;
     }
 
+    .bloc_contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .contact_form {
         width: 70%;
         padding-top: 5%;
@@ -1100,9 +1110,7 @@ h4 {
     }
 
     .black-background{
-        width: 90%;
-        padding-left: 0;
-        padding-right: 0;
+        padding: 10% 0 10% 0;
     }
 
     .tc-white{
